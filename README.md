@@ -13,7 +13,7 @@ npm link
 
 Usage
 -----
-Pipe your json via stdin; e.g.
+Pipe your json via stdin; e.g. on your mac, copy your JSON to clipboard and then:
 
 ```
 pbpaste | jp "field1.field2"
