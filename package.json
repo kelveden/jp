@@ -1,20 +1,29 @@
 {
-  "name": "jp",
-  "version": "0.0.0",
-  "description": "JSONPath from the command line",
-  "bin": {
-    "jp": "./bin/jp"
-  },
-  "main": "jp.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "JSONPath": "0.10.0",
-    "JSONStream": "0.10.0",
-    "event-stream": "^3.1.7",
-    "optimist": "^0.6.1"
-  }
+    "name": "jp",
+    "version": "0.0.0",
+    "description": "JSONPath from the command line",
+    "bin": {
+        "jp": "./bin/jp"
+    },
+    "main": "jp.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kelveden/jp"
+    },
+    "keywords": [
+        "jsonpath",
+        "json-path",
+        "command-line"
+    ],
+    "author": "Alistair Dutton",
+    "license": "BSD-3-Clause",
+    "bugs": {
+        "url": "https://github.com/jp/issues"
+    },
+    "dependencies": {
+        "JSONPath": "0.10.0",
+        "JSONStream": "0.10.0",
+        "event-stream": "3.1.7",
+        "optimist": "0.6.1"
+    }
 }
